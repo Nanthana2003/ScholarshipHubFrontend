@@ -1,5 +1,5 @@
 .sendmessage{
-    position: fixed;
+    position: sticky;
     bottom:0px;
     background-color: rgb(255, 0, 183);
     width:100%;

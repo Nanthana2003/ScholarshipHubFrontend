@@ -33,6 +33,7 @@ const Register = () => {
         <div className="overall">
             <div className="registermenu">
                 <p className="heading">Scholarship hub</p>
+                <p className="heading">Register</p>
                 <input type="text" className="username" placeholder="Enter username" required={true} onChange={(e)=>{setUsername(e.target.value)}}/>
                 <input type="text" className="email" placeholder="Enter email" required={true} onChange={(e)=>{setEmail(e.target.value)}}/>
                 <input type="password" className="password" placeholder="Enter password" required={true} onChange={(e)=>{setPassword(e.target.value)}}/>
