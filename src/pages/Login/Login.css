@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(207, 0, 152)
+}
+.overall{
+    display: flex;
+    width:100%;
+    margin-top:20vh;
+    justify-content: center;
+    color:white;
+}
+.heading{
+    font-size: 2em;
+    font-weight: 600;
+}
+.loginmenu{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding:20px;
+    border-radius: 20px;
+}
+input{
+    margin:5px;
+    width:60%;
+    height: 30px;
+    border-radius: 5px;
+
+}
+.login{
+    padding:10px;
+    margin:10px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: rgb(207, 0, 152);
+}
+.register{
+    color:white;
+    cursor:pointer;
+}
+.message{
+    color:white;
+}
+@media only screen and (max-width: 600px){
+    .loginmenu{
+        width:100%;
+    }
+}

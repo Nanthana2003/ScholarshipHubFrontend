@@ -1,0 +1,97 @@
+.sendmessage{
+    position: fixed;
+    bottom:0px;
+    background-color: rgb(255, 0, 183);
+    width:100%;
+}
+button{
+    padding:5px;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+}
+.chatlist{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+.chat{
+    background-color:rgb(255, 0, 183) ;
+    margin:10px;
+    width:50%;
+}
+.question{
+    display: flex;
+    width:100%;
+    justify-content: space-around;
+    
+}
+.q{
+    background-color: rgb(244, 0, 167);
+    width:70%;
+    padding:3px;
+    text-align: left;
+    color:white;
+    border-radius: 3px ;
+}
+.qname{
+    background-color: rgb(137, 4, 186);
+    width:25%;
+    padding:3px;
+    color:white;
+    border-radius: 3px ;
+}
+.answerbody{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+
+}
+.inner{
+    display: flex;
+    justify-content: space-around;
+    margin:0.5px;
+    align-items: center;
+    width:100%;
+}
+.answer{
+    background-color: rgb(49, 8, 68);
+    width:70%;
+    padding:3px;
+    color:white;
+    text-align: left;
+    border-radius: 3px ;
+}
+.aname{
+    background-color: rgb(7, 18, 78);
+    width:25%;
+    padding:3px;
+    color:white;
+    border-radius: 3px ;
+}
+@media only screen and (max-width: 900px){
+    .chat{
+        width:75%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .chat{
+        width:100%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .question{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .q,.answer{
+        width:100%;
+    }
+    .inner{
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
+}
