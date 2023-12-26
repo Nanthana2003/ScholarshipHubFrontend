@@ -35,7 +35,7 @@ const Login = () => {
         <>
         <div className="overall">
             <div className="loginmenu">
-                <p className="heading">Scholarship hub</p>
+                <p className="heading">Busy Bee</p>
                 <input type="text" className="email" placeholder="Enter email" required={true} onChange={(e)=>{setEmail(e.target.value)}}/>
                 <input type="password" className="password" placeholder="Enter password" required={true} onChange={(e)=>{setPassword(e.target.value)}}/>
                 <button className="login" onClick={()=>{if(check()){loginuser();}else{setMessage("No field can be left empty")}}}>Login</button>

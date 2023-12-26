@@ -83,7 +83,7 @@ const Chat = () => {
         <>
         <div className="chatbody">
             <div className="search">
-                <input type="text" placeholder="Search by scholarship names" className="seachbar" onChange={(e)=>{setSearchval(e.target.value)}}/>
+                <input type="text" placeholder="Search by internship names" className="seachbar" onChange={(e)=>{setSearchval(e.target.value)}}/>
             </div>
             <div className="chatlist">
                 {chatarr && chatarr.map((item)=>(

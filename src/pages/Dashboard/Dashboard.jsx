@@ -28,7 +28,7 @@ const Dashboard = () => {
     return(
         <>
         <div className="entirebody">
-            <p className="maintitle">Scholarships</p>
+            <p className="maintitle">Internship opportunities</p>
             <div className="list">
                 {arr && arr.map((item)=>(
                     <>
@@ -36,12 +36,9 @@ const Dashboard = () => {
                         <p className="head">{item.name}</p>
                         <li className="eligibility">{item.eligibility}</li>
                         <div className="deov">
-                            <p>Details:</p>
-                        <ul className="detailsbody">
-                        {item.details && item.details.map((i)=>(
-                            <li className="details">{i}</li>
-                        ))}
-                        </ul>
+                        {/* {item.details && item.details.map((i)=>( */}
+                            <div style={{display:"flex", width:"100%", justifyContent:"center"}}><button style={{backgroundColor:"green", borderColor:"green", borderRadius:"5px", paddingRight:"20px", paddingLeft:"20px"}}><a href={item.details} style={{color:"white", textDecoration:"none", fontSize:"1.2em"}}>Apply</a></button></div>
+                        {/* ))} */}
                         </div>
                     </div>
                     </>
