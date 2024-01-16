@@ -1,10 +1,8 @@
 version: "3"
 services:
   app:
-    container_name: projFrontend
-    image: frontendver4:latest
     restart: always
-    build: .
+    build: ./
     ports:
      - "3000:3000"
     env_file:
